@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+
+@media (max-width: 460px) {
+  .bar {
+    display: block;
+  }
+
+  #link {
+    display: none;
+  }
+  #btn {
+    margin: 0px auto 15px;
+  }
+
+  .links ul li {
+    display: none;
+  }
+  h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+}
+h3 {
+  margin: 10px auto;
+}
+.head {
+  padding: 10px 35px;
+  text-transform: capitalize;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  background-image: url(images/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 20px;
+}
+.logo-last {
+  background-image: url(images/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 20px;
+  margin: 20px auto;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+}
+.links ul li {
+  margin: 0px 10px;
+  text-transform: capitalize;
+  padding: 5px;
+  font-size: 15px;
+}
+.social {
+  margin: 10px auto;
+  text-align: center;
+}
+.social ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.social ul li {
+  text-transform: capitalize;
+  font-size: 15px;
+  margin: 0px 10px;
+}
+
+
+#view {
+  border: 1px solid black;
+  width: fit-content;
+  margin: auto;
+}
+#view_x {
+  border: 1px solid white;
+  width: fit-content;
+  padding: 5px 10px;
+  margin: 20px auto;
+}
+
+.people {
+  height: 400px;
+  background-size: cover;
+  background-image: url(images/image-intro-mobile.jpg);
+  background-repeat: no-repeat;
+}
+.description {
+  height: max-content;
+  background-color: hsl(256, 26%, 20%);
+  text-align: center;
+  color: white;
+}
+.description:last-of-type {
+  height: 80vh;
+  background-color: hsl(256, 26%, 20%);
+  text-align: center;
+  color: white;
+}
+
+.left {
+  height: 30%;
+  background-size: contain;
+  background-image: url(images/bg-pattern-intro-left-mobile.svg);
+  background-repeat: no-repeat;
+}
+.right {
+  height: 50%;
+  background-size: contain;
+  background-image: url(images/bg-pattern-intro-right-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.title {
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+}
+.container h1 {
+  margin: 20px;
+}
+.cards > div {
+  margin: 40px auto;
+  padding: 15px;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  margin: 10px auto;
+}
+#img_1 {
+  background-image: url(images/icon-snappy-process.svg);
+}
+#img_2 {
+  background-image: url(images/icon-affordable-prices.svg);
+}
+#img_3 {
+  background-image: url(images/icon-people-first.svg);
+}
+}
+
+@media (min-width: 460px) {
+  body{
+    display: none;
+  }
+} 
